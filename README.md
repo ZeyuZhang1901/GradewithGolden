@@ -16,3 +16,12 @@ The `singleAgent.ipynb` notebook file is an important part of this project. It c
 
 Feel free to explore the other files and folders in this repository to learn more about the `GradewithGolden` project.
 
+### Evaluation
+
+Here We use the token level **F1-score** as the evaluation metric to measure the level of leakage. Higher F1-score means more leakage. The F1-score is calculated as follows:
+
+$$
+F1 = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
+
+where $\text{Precision} = \frac{TP}{TP + FP}$ and $\text{Recall} = \frac{TP}{TP + FN}$.

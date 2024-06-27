@@ -2,14 +2,14 @@
 
 The data for this project is located here and the structure is as follows:
 
-'''
+```
 - data/
   - Merged_Responses.csv
   - UGIB_generations_temp_0.8/
     BASE-GPT3.5.csv
     BASE-GPT4.csv
     ...
-'''
+```
 
 The golden data and the generated data are stored in the `Merged_Responses.csv` file and the `UGIB_generations_temp_0.8` folder, respectively.
 
